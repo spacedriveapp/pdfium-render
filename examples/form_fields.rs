@@ -2,6 +2,7 @@ use pdfium_render::prelude::*;
 
 pub fn main() -> Result<(), PdfiumError> {
     // For general comments about pdfium-render and binding to Pdfium, see export.rs.
+    // For an example of filling a form field, see fill_form_field.rs.
 
     let pdfium = Pdfium::default();
 
