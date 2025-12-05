@@ -1,5 +1,8 @@
 #![doc = include_str!("../README.md")]
 
+#[macro_use]
+extern crate log;
+
 mod bindgen {
     #![allow(non_upper_case_globals)]
     #![allow(non_camel_case_types)]

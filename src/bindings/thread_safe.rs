@@ -37,7 +37,6 @@ use crate::bindgen::FPDF_SKIA_CANVAS;
 use crate::bindgen::{FPDF_BSTR, FPDF_RESULT};
 
 use crate::bindings::PdfiumLibraryBindings;
-use log;
 use once_cell::sync::Lazy;
 use std::cell::RefCell;
 use std::os::raw::{
